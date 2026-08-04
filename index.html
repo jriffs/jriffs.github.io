@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jeremiah Oluwakoya — Jedi of JavaScript. Full-stack developer, idea man, and builder from Lagos, Nigeria." />
+  <title>Jeremiah Oluwakoya | Jedi of JavaScript</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">jriffs<span>.</span></a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#oss" class="nav-link">Open Source</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Toggle theme">
+            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="hero-greeting">Hi, I'm</p>
+          <h1 class="hero-name">Jeremiah Oluwakoya</h1>
+          <p class="hero-title">Jedi of JavaScript · Full-Stack Developer</p>
+          <p class="hero-desc">
+            Idea-driven developer from Lagos, Nigeria. I build practical solutions across the web, systems, and blockchain — always looking for smarter ways to make things easier.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+            <a href="assets/resume.pdf" class="btn btn-ghost" download>Download Resume</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/jriffs" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="https://twitter.com/Mothers__child" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.792l7.727-8.829L1.24 2.25h7.414l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+            </a>
+            <a href="https://Jedi-of-JavaScript.hashnode.dev" target="_blank" rel="noopener noreferrer" aria-label="Blog">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </a>
+            <a href="https://dev.to/jriffs" target="_blank" rel="noopener noreferrer" aria-label="Dev.to">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.5A2.5 2.5 0 0 1 5.5 3h13A2.5 2.5 0 0 1 21 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 18.5z"/><path d="M7.5 7.5h9"/><path d="M7.5 12h9"/><path d="M7.5 16.5h6"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <!-- Replace the src with your professional avatar -->
+          <img src="./assets/images/official-avatar.jpg" alt="avatar" class="avatar-placeholder">
+          <!-- <div class="avatar-placeholder">
+            <span>JO</span>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I like to think of myself as an <strong>idea man</strong>. I'm always thinking about solutions and ideas that make things easier for people. Goal-oriented, productivity-focused, and a bit unorthodox in how I approach development.
+            </p>
+            <p>
+              I'm a full-stack web developer with experience building desktop and Android applications. Lately I've been diving deep into <strong>Solana</strong> and <strong>Anchor</strong>, while continuing to sharpen my skills in TypeScript and Svelte.
+            </p>
+            <p>
+              Outside of code, I'm a singer, songwriter, and vocal coach. I love staying fit and playing football.
+            </p>
+            <p class="about-location"><i class="fa-solid fa-location-dot"></i> Lagos, Nigeria</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+              <span>JavaScript</span>
+              <span>TypeScript</span>
+              <span>HTML & CSS</span>
+              <span>Svelte</span>
+              <span>jQuery</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Backend</h3>
+            <div class="skill-tags">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>PHP</span>
+              <span>REST APIs</span>
+              <span>Microservices</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Blockchain</h3>
+            <div class="skill-tags">
+              <span>Solana</span>
+              <span>Anchor</span>
+              <span>Rust (Solana)</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Systems & Tools</h3>
+            <div class="skill-tags">
+              <span>Rust</span>
+              <span>Java</span>
+              <span>Git</span>
+              <span>CLI Tools</span>
+              <span>Browser Extensions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+
+          <!-- Featured: VoisaScript -->
+          <article class="project-card featured">
+            <div class="project-badge">Featured</div>
+            <h3 class="project-title">VoisaScript</h3>
+            <p class="project-desc">
+              An ambitious open-source project consisting of a cross-platform browser extension (TypeScript + Svelte) paired with microservices for authentication and file storage. Built to explore real-world extension architecture and backend services.
+            </p>
+            <div class="project-tech">
+              <span>TypeScript</span>
+              <span>Svelte</span>
+              <span>Node.js</span>
+              <span>Browser Extension</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/jriffs/Voisascript-Web-TypeScript" target="_blank" rel="noopener noreferrer" class="project-link">GitHub →</a>
+              <a href="https://github.com/jriffs/file-storage-voisascript" target="_blank" rel="noopener noreferrer" class="project-link">Storage Service →</a>
+            </div>
+          </article>
+
+          <!-- dev-audience -->
+          <article class="project-card">
+            <h3 class="project-title">dev-audience</h3>
+            <p class="project-desc">
+              Automated Twitter system built to power the DevAudience community. Handles engagement and community management using the Twitter API v2.
+            </p>
+            <div class="project-tech">
+              <span>Node.js</span>
+              <span>Twitter API</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/jriffs/dev-audience" target="_blank" rel="noopener noreferrer" class="project-link">GitHub →</a>
+            </div>
+          </article>
+
+          <!-- Solana Work -->
+          <article class="project-card">
+            <h3 class="project-title">100 Days of Solana</h3>
+            <p class="project-desc">
+              My submissions and experiments from the Major League Hacking 100 Days of Solana challenge, including Anchor program development and wallet integrations.
+            </p>
+            <div class="project-tech">
+              <span>Solana</span>
+              <span>Anchor</span>
+              <span>Rust</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/jriffs/100-days-of-solana" target="_blank" rel="noopener noreferrer" class="project-link">GitHub →</a>
+              <a href="https://github.com/jriffs/100daysofsolana-Anchor-tutorial-2" target="_blank" rel="noopener noreferrer" class="project-link">Anchor Work →</a>
+            </div>
+          </article>
+
+          <!-- Rust CLI -->
+          <article class="project-card">
+            <h3 class="project-title">Rust CLI Tools</h3>
+            <p class="project-desc">
+              A collection of command-line tools built while learning Rust — including a file explorer and number guessing game. Focused on systems programming fundamentals.
+            </p>
+            <div class="project-tech">
+              <span>Rust</span>
+              <span>CLI</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/jriffs/first-file-explorer-project" target="_blank" rel="noopener noreferrer" class="project-link">File Explorer →</a>
+              <a href="https://github.com/jriffs/guessing_game" target="_blank" rel="noopener noreferrer" class="project-link">Guessing Game →</a>
+            </div>
+          </article>
+
+          <!-- OOJS Tutorial -->
+          <article class="project-card">
+            <h3 class="project-title">OOJS Tutorial</h3>
+            <p class="project-desc">
+              A simplified and straightforward series on Object-Oriented JavaScript covering prototypes, inheritance, classes, and the <code>this</code> keyword. Accompanied by blog posts on Hashnode.
+            </p>
+            <div class="project-tech">
+              <span>JavaScript</span>
+              <span>Education</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/jriffs/OOJS-TUTORIAL" target="_blank" rel="noopener noreferrer" class="project-link">GitHub →</a>
+              <a href="https://Jedi-of-JavaScript.hashnode.dev" target="_blank" rel="noopener noreferrer" class="project-link">Blog →</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Open Source Contributions -->
+    <section id="oss" class="section oss">
+      <div class="container">
+        <h2 class="section-title">Open Source Contributions</h2>
+        <p class="oss-intro">
+          I enjoy contributing to projects that improve developer experience. More contributions coming soon.
+        </p>
+        <div class="oss-list">
+          <article class="oss-card">
+            <div class="oss-header">
+              <h3 class="oss-title">Dapr JavaScript SDK</h3>
+              <span class="oss-badge">Merged</span>
+            </div>
+            <p class="oss-desc">
+              Added custom error classes (<code>GRPCNotSupportedError</code> and <code>HTTPNotSupportedError</code>) and updated the SDK to use them in place of generic errors. Improves clarity and error handling for developers using the Dapr JS client.
+            </p>
+            <div class="oss-meta">
+              <span class="oss-repo">dapr/js-sdk</span>
+              <a href="https://github.com/dapr/js-sdk/pull/508" target="_blank" rel="noopener noreferrer" class="oss-link">View Pull Request →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-intro">
+          I'm always open to interesting ideas, collaborations, and conversations about JavaScript, Solana, or building useful tools. Feel free to reach out.
+        </p>
+        <div class="contact-links">
+          <a href="https://github.com/jriffs" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">@jriffs</span>
+          </a>
+          <a href="https://twitter.com/Mothers__child" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-label">Twitter / X</span>
+            <span class="contact-value">@Mothers__child</span>
+          </a>
+          <a href="https://Jedi-of-JavaScript.hashnode.dev" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-label">Blog</span>
+            <span class="contact-value">Jedi of JavaScript</span>
+          </a>
+          <a href="https://dev.to/jriffs" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-label">Dev.to</span>
+            <span class="contact-value">@jriffs</span>
+          </a>
+        </div>
+        <p class="contact-note">Prefer email? Reach out via a DM on Twitter and I'll share it.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jeremiah Oluwakoya. Built with curiosity by Jedi of JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
